@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdint.h>
-void dieifnull(unsigned char *error,void *ptr) {
+void dieifnull(char *error,void *ptr) {
 	if(ptr == NULL) { // if its a null pointer
 		fprintf(stderr, "%s", error);
 		exit(1);

@@ -7,5 +7,5 @@ typedef struct {
 	int len; // program len
 } Config;
 
-extern void dieifnull(unsigned char *error,void *ptr);
+extern void dieifnull(char *error,void *ptr);
 uint32_t hex2int(char *hex);

@@ -1,8 +1,3 @@
-// array for holding registers
-
-
-
-unsigned int registers[32];
 #define r0 0
 #define at 1
 #define v0 2
@@ -35,3 +30,6 @@ unsigned int registers[32];
 #define sp 29
 #define s8 30
 #define ra 31
+
+
+
