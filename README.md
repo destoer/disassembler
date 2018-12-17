@@ -1,1 +1,1 @@
-n64 disassemlber in early stages of development
+n64 disassembler in early stages of development
